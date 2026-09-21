@@ -5,5 +5,7 @@ islp_db/
 .venv/
 *.egg-info/
 .DS_Store
+eval/.cache.json
+eval/.audit.jsonl
 # textbook-derived chunks: keep out of public repos (the book is copyrighted)
 data/*.jsonl

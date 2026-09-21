@@ -26,6 +26,40 @@ then (optionally) `python scripts/index_chunks.py data/book_chunks.jsonl ./book_
 Any PDF with bookmarks (a table of contents) works; adjust the margin-note
 x-position in the chunker for other layouts.
 
+## MCP server
+
+`planlearn` can run as an MCP server so an MCP client (Claude Code, Claude
+Desktop, etc.) can call it directly from a chat prompt instead of the CLI.
+
+```
+pip install -e ".[mcp]"
+python -m planlearn.mcp_server        # stdio server, for manual testing
+```
+
+It exposes five tools: `plan_learning_roadmap` (build a roadmap for a goal),
+`refine_plan` (re-plan after feedback — known topics, dropped slots, pace),
+`list_levels`, `list_node_types`, and both planning tools take an optional
+`node_types` filter (e.g. `["concept"]` for explanation-only slots, no
+coding/math_proof/exercise). Both planning tools default to a trimmed
+response (goal, roadmap, starting points, recommendations, alternates);
+pass `full_output: true` to also get the raw knowledge graph and
+rejected/merged bookkeeping (computed before any `node_types` filtering).
+
+This repo ships a project-scoped [`.mcp.json`](.mcp.json) pointing at
+`.venv/bin/python -m planlearn.mcp_server`, so Claude Code picks it up
+automatically when run from this directory (it will prompt once to approve
+the project's MCP servers). To register it globally instead:
+
+```
+claude mcp add planlearn -- /path/to/planlearn/.venv/bin/python -m planlearn.mcp_server
+```
+
+Configuration is via env vars, all optional: `PLANLEARN_CHUNKS` (textbook
+chunks JSONL, default `data/islp_chunks.jsonl`), `PLANLEARN_CACHE`
+(`runs/cache.json`), `PLANLEARN_AUDIT` (`runs/audit.jsonl`). Set
+`ANTHROPIC_API_KEY` in the server's environment if you want tool calls with
+`use_llm: true`.
+
 ## How the design maps to code
 
 | Design doc | Code |

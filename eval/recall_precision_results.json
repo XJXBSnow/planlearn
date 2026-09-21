@@ -1,0 +1,541 @@
+{
+  "summary": {
+    "n_goals": 20,
+    "macro_recall": 0.883,
+    "macro_precision": 0.565,
+    "perfect_recall_goals": 15,
+    "mean_granularity_in_band": 0.901,
+    "mean_type_hint_coverage": 1.0,
+    "mean_dependency_integrity": 1.0,
+    "goals_missing_starting_points": 0
+  },
+  "results": [
+    {
+      "goal": "ridge regression and the lasso",
+      "expected": [
+        "6 Linear Model Selection and Regularization > 6.2 Shrinkage Methods",
+        "6 Linear Model Selection and Regularization > 6.2 Shrinkage Methods > 6.2.1 Ridge Regression",
+        "6 Linear Model Selection and Regularization > 6.2 Shrinkage Methods > 6.2.2 The Lasso"
+      ],
+      "found": [
+        "6 Linear Model Selection and Regularization > 6.2 Shrinkage Methods",
+        "6 Linear Model Selection and Regularization > 6.2 Shrinkage Methods > 6.2.1 Ridge Regression",
+        "6 Linear Model Selection and Regularization > 6.2 Shrinkage Methods > 6.2.2 The Lasso"
+      ],
+      "missed": [],
+      "recall": 1.0,
+      "precision": 0.69,
+      "n_slots": 29,
+      "total_minutes": 400.2,
+      "avg_slot_minutes": 13.8,
+      "granularity_in_band": 0.966,
+      "type_hint_coverage": 1.0,
+      "dependency_integrity": 1.0,
+      "has_starting_points": true,
+      "off_topic_chapters_sample": [
+        "3 Linear Regression",
+        "3 Linear Regression > 3.2 Multiple Linear Regression",
+        "3 Linear Regression > 3.2 Multiple Linear Regression > 3.2.1 Estimating the Regression Coefficients",
+        "3 Linear Regression > 3.2 Multiple Linear Regression > 3.2.2 Some Important Questions",
+        "3 Linear Regression > 3.3 Other Considerations in the Regression Model > 3.3.2 Extensions of the Linear Model"
+      ]
+    },
+    {
+      "goal": "support vector machines",
+      "expected": [
+        "9 Support Vector Machines > 9.1 Maximal Margin Classifier",
+        "9 Support Vector Machines > 9.2 Support Vector Classifiers",
+        "9 Support Vector Machines > 9.3 Support Vector Machines"
+      ],
+      "found": [
+        "9 Support Vector Machines > 9.2 Support Vector Classifiers",
+        "9 Support Vector Machines > 9.3 Support Vector Machines"
+      ],
+      "missed": [
+        "9 Support Vector Machines > 9.1 Maximal Margin Classifier"
+      ],
+      "recall": 0.667,
+      "precision": 0.846,
+      "n_slots": 13,
+      "total_minutes": 156.4,
+      "avg_slot_minutes": 12.0,
+      "granularity_in_band": 1.0,
+      "type_hint_coverage": 1.0,
+      "dependency_integrity": 1.0,
+      "has_starting_points": true,
+      "off_topic_chapters_sample": [
+        "7 Moving Beyond Linearity",
+        "7 Moving Beyond Linearity > 7.1 Polynomial Regression"
+      ]
+    },
+    {
+      "goal": "logistic regression",
+      "expected": [
+        "4 Classification > 4.3 Logistic Regression"
+      ],
+      "found": [
+        "4 Classification > 4.3 Logistic Regression"
+      ],
+      "missed": [],
+      "recall": 1.0,
+      "precision": 0.654,
+      "n_slots": 26,
+      "total_minutes": 314.2,
+      "avg_slot_minutes": 12.1,
+      "granularity_in_band": 0.923,
+      "type_hint_coverage": 1.0,
+      "dependency_integrity": 1.0,
+      "has_starting_points": true,
+      "off_topic_chapters_sample": [
+        "3 Linear Regression",
+        "3 Linear Regression > 3.3 Other Considerations in the Regression Model > 3.3.1 Qualitative Predictors",
+        "3 Linear Regression > 3.3 Other Considerations in the Regression Model > 3.3.2 Extensions of the Linear Model",
+        "3 Linear Regression > 3.6 Lab: Linear Regression > 3.6.4 Multivariate Goodness of Fit",
+        "3 Linear Regression > 3.6 Lab: Linear Regression > 3.6.7 Qualitative Predictors"
+      ]
+    },
+    {
+      "goal": "linear discriminant analysis",
+      "expected": [
+        "4 Classification > 4.4 Generative Models for Classification > 4.4.1 Linear Discriminant Analysis for p = 1",
+        "4 Classification > 4.4 Generative Models for Classification > 4.4.2 Linear Discriminant Analysis for p >1"
+      ],
+      "found": [
+        "4 Classification > 4.4 Generative Models for Classification > 4.4.1 Linear Discriminant Analysis for p = 1",
+        "4 Classification > 4.4 Generative Models for Classification > 4.4.2 Linear Discriminant Analysis for p >1"
+      ],
+      "missed": [],
+      "recall": 1.0,
+      "precision": 0.652,
+      "n_slots": 23,
+      "total_minutes": 292.9,
+      "avg_slot_minutes": 12.7,
+      "granularity_in_band": 0.913,
+      "type_hint_coverage": 1.0,
+      "dependency_integrity": 1.0,
+      "has_starting_points": true,
+      "off_topic_chapters_sample": [
+        "10 Deep Learning > 10.2 Multilayer Neural Networks",
+        "2 Statistical Learning > 2.2 Assessing Model Accuracy",
+        "2 Statistical Learning > 2.2 Assessing Model Accuracy > 2.2.1 Measuring the Quality of Fit",
+        "2 Statistical Learning > 2.2 Assessing Model Accuracy > 2.2.3 The Classification Setting",
+        "2 Statistical Learning > 2.3 Lab: Introduction to Python > 2.3.8 For Loops"
+      ]
+    },
+    {
+      "goal": "decision trees",
+      "expected": [
+        "8 Tree-Based Methods > 8.1 The Basics of Decision Trees"
+      ],
+      "found": [
+        "8 Tree-Based Methods > 8.1 The Basics of Decision Trees"
+      ],
+      "missed": [],
+      "recall": 1.0,
+      "precision": 0.294,
+      "n_slots": 17,
+      "total_minutes": 205.8,
+      "avg_slot_minutes": 12.1,
+      "granularity_in_band": 0.882,
+      "type_hint_coverage": 1.0,
+      "dependency_integrity": 1.0,
+      "has_starting_points": true,
+      "off_topic_chapters_sample": [
+        "3 Linear Regression",
+        "3 Linear Regression > 3.2 Multiple Linear Regression",
+        "3 Linear Regression > 3.2 Multiple Linear Regression > 3.2.2 Some Important Questions",
+        "3 Linear Regression > 3.3 Other Considerations in the Regression Model > 3.3.1 Qualitative Predictors",
+        "3 Linear Regression > 3.3 Other Considerations in the Regression Model > 3.3.2 Extensions of the Linear Model"
+      ]
+    },
+    {
+      "goal": "random forests and boosting",
+      "expected": [
+        "8 Tree-Based Methods > 8.2 Bagging, Random Forests, Boosting, and Bayesian Additive Regression Trees > 8.2.2 Random Forests",
+        "8 Tree-Based Methods > 8.2 Bagging, Random Forests, Boosting, and Bayesian Additive Regression Trees > 8.2.3 Boosting"
+      ],
+      "found": [
+        "8 Tree-Based Methods > 8.2 Bagging, Random Forests, Boosting, and Bayesian Additive Regression Trees > 8.2.2 Random Forests",
+        "8 Tree-Based Methods > 8.2 Bagging, Random Forests, Boosting, and Bayesian Additive Regression Trees > 8.2.3 Boosting"
+      ],
+      "missed": [],
+      "recall": 1.0,
+      "precision": 0.583,
+      "n_slots": 12,
+      "total_minutes": 150.8,
+      "avg_slot_minutes": 12.6,
+      "granularity_in_band": 0.833,
+      "type_hint_coverage": 1.0,
+      "dependency_integrity": 1.0,
+      "has_starting_points": true,
+      "off_topic_chapters_sample": [
+        "11 Survival Analysis and Censored Data > 11.7 Additional Topics",
+        "5 Resampling Methods",
+        "5 Resampling Methods > 5.1 Cross-Validation",
+        "5 Resampling Methods > 5.1 Cross-Validation > 5.1.5 Cross-Validation on Classification Problems",
+        "5 Resampling Methods > 5.2 The Bootstrap"
+      ]
+    },
+    {
+      "goal": "principal components analysis",
+      "expected": [
+        "12 Unsupervised Learning > 12.2 Principal Components Analysis",
+        "12 Unsupervised Learning > 12.2 Principal Components Analysis > 12.2.1 What Are Principal Components?"
+      ],
+      "found": [
+        "12 Unsupervised Learning > 12.2 Principal Components Analysis"
+      ],
+      "missed": [
+        "12 Unsupervised Learning > 12.2 Principal Components Analysis > 12.2.1 What Are Principal Components?"
+      ],
+      "recall": 0.5,
+      "precision": 0.632,
+      "n_slots": 19,
+      "total_minutes": 253.3,
+      "avg_slot_minutes": 13.3,
+      "granularity_in_band": 0.947,
+      "type_hint_coverage": 1.0,
+      "dependency_integrity": 1.0,
+      "has_starting_points": true,
+      "off_topic_chapters_sample": [
+        "3 Linear Regression",
+        "3 Linear Regression > 3.2 Multiple Linear Regression",
+        "3 Linear Regression > 3.2 Multiple Linear Regression > 3.2.1 Estimating the Regression Coefficients",
+        "3 Linear Regression > 3.4 The Marketing Plan",
+        "6 Linear Model Selection and Regularization > 6.3 Dimension Reduction Methods"
+      ]
+    },
+    {
+      "goal": "k-means and hierarchical clustering",
+      "expected": [
+        "12 Unsupervised Learning > 12.4 Clustering Methods > 12.4.1 K-Means Clustering",
+        "12 Unsupervised Learning > 12.4 Clustering Methods > 12.4.2 Hierarchical Clustering"
+      ],
+      "found": [
+        "12 Unsupervised Learning > 12.4 Clustering Methods > 12.4.1 K-Means Clustering",
+        "12 Unsupervised Learning > 12.4 Clustering Methods > 12.4.2 Hierarchical Clustering"
+      ],
+      "missed": [],
+      "recall": 1.0,
+      "precision": 1.0,
+      "n_slots": 20,
+      "total_minutes": 252.5,
+      "avg_slot_minutes": 12.6,
+      "granularity_in_band": 0.95,
+      "type_hint_coverage": 1.0,
+      "dependency_integrity": 1.0,
+      "has_starting_points": true,
+      "off_topic_chapters_sample": []
+    },
+    {
+      "goal": "cross-validation",
+      "expected": [
+        "5 Resampling Methods > 5.1 Cross-Validation"
+      ],
+      "found": [
+        "5 Resampling Methods > 5.1 Cross-Validation"
+      ],
+      "missed": [],
+      "recall": 1.0,
+      "precision": 0.105,
+      "n_slots": 38,
+      "total_minutes": 504.1,
+      "avg_slot_minutes": 13.3,
+      "granularity_in_band": 0.947,
+      "type_hint_coverage": 1.0,
+      "dependency_integrity": 1.0,
+      "has_starting_points": true,
+      "off_topic_chapters_sample": [
+        "3 Linear Regression",
+        "3 Linear Regression > 3.2 Multiple Linear Regression",
+        "3 Linear Regression > 3.2 Multiple Linear Regression > 3.2.2 Some Important Questions",
+        "3 Linear Regression > 3.3 Other Considerations in the Regression Model > 3.3.2 Extensions of the Linear Model",
+        "3 Linear Regression > 3.3 Other Considerations in the Regression Model > 3.3.3 Potential Problems"
+      ]
+    },
+    {
+      "goal": "the bootstrap",
+      "expected": [
+        "5 Resampling Methods > 5.2 The Bootstrap"
+      ],
+      "found": [
+        "5 Resampling Methods > 5.2 The Bootstrap"
+      ],
+      "missed": [],
+      "recall": 1.0,
+      "precision": 0.857,
+      "n_slots": 14,
+      "total_minutes": 170.0,
+      "avg_slot_minutes": 12.1,
+      "granularity_in_band": 0.929,
+      "type_hint_coverage": 1.0,
+      "dependency_integrity": 1.0,
+      "has_starting_points": true,
+      "off_topic_chapters_sample": [
+        "8 Tree-Based Methods > 8.2 Bagging, Random Forests, Boosting, and Bayesian Additive Regression Trees",
+        "8 Tree-Based Methods > 8.2 Bagging, Random Forests, Boosting, and Bayesian Additive Regression Trees > 8.2.3 Boosting"
+      ]
+    },
+    {
+      "goal": "regression splines",
+      "expected": [
+        "7 Moving Beyond Linearity > 7.4 Regression Splines"
+      ],
+      "found": [
+        "7 Moving Beyond Linearity > 7.4 Regression Splines"
+      ],
+      "missed": [],
+      "recall": 1.0,
+      "precision": 0.471,
+      "n_slots": 17,
+      "total_minutes": 186.0,
+      "avg_slot_minutes": 10.9,
+      "granularity_in_band": 0.882,
+      "type_hint_coverage": 1.0,
+      "dependency_integrity": 1.0,
+      "has_starting_points": true,
+      "off_topic_chapters_sample": [
+        "5 Resampling Methods",
+        "5 Resampling Methods > 5.1 Cross-Validation",
+        "5 Resampling Methods > 5.1 Cross-Validation > 5.1.2 Leave-One-Out Cross-Validation",
+        "5 Resampling Methods > 5.3 Lab: Cross-Validation and the Bootstrap",
+        "5 Resampling Methods > 5.3 Lab: Cross-Validation and the Bootstrap > 5.3.1 The Validation Set Approach"
+      ]
+    },
+    {
+      "goal": "generalized additive models",
+      "expected": [
+        "7 Moving Beyond Linearity > 7.7 Generalized Additive Models"
+      ],
+      "found": [
+        "7 Moving Beyond Linearity > 7.7 Generalized Additive Models"
+      ],
+      "missed": [],
+      "recall": 1.0,
+      "precision": 0.071,
+      "n_slots": 14,
+      "total_minutes": 171.9,
+      "avg_slot_minutes": 12.3,
+      "granularity_in_band": 0.714,
+      "type_hint_coverage": 1.0,
+      "dependency_integrity": 1.0,
+      "has_starting_points": true,
+      "off_topic_chapters_sample": [
+        "3 Linear Regression",
+        "3 Linear Regression > 3.3 Other Considerations in the Regression Model > 3.3.1 Qualitative Predictors",
+        "3 Linear Regression > 3.3 Other Considerations in the Regression Model > 3.3.3 Potential Problems",
+        "3 Linear Regression > 3.5 Comparison of Linear Regression with K-Nearest Neighbors",
+        "5 Resampling Methods"
+      ]
+    },
+    {
+      "goal": "convolutional neural networks",
+      "expected": [
+        "10 Deep Learning > 10.3 Convolutional Neural Networks"
+      ],
+      "found": [
+        "10 Deep Learning > 10.3 Convolutional Neural Networks"
+      ],
+      "missed": [],
+      "recall": 1.0,
+      "precision": 0.609,
+      "n_slots": 23,
+      "total_minutes": 268.0,
+      "avg_slot_minutes": 11.7,
+      "granularity_in_band": 0.913,
+      "type_hint_coverage": 1.0,
+      "dependency_integrity": 1.0,
+      "has_starting_points": true,
+      "off_topic_chapters_sample": [
+        "3 Linear Regression",
+        "3 Linear Regression > 3.5 Comparison of Linear Regression with K-Nearest Neighbors",
+        "3 Linear Regression > 3.6 Lab: Linear Regression > 3.6.2 Simple Linear Regression"
+      ]
+    },
+    {
+      "goal": "recurrent neural networks",
+      "expected": [
+        "10 Deep Learning > 10.5 Recurrent Neural Networks"
+      ],
+      "found": [
+        "10 Deep Learning > 10.5 Recurrent Neural Networks"
+      ],
+      "missed": [],
+      "recall": 1.0,
+      "precision": 0.64,
+      "n_slots": 25,
+      "total_minutes": 311.2,
+      "avg_slot_minutes": 12.4,
+      "granularity_in_band": 0.92,
+      "type_hint_coverage": 1.0,
+      "dependency_integrity": 1.0,
+      "has_starting_points": true,
+      "off_topic_chapters_sample": [
+        "3 Linear Regression",
+        "3 Linear Regression > 3.5 Comparison of Linear Regression with K-Nearest Neighbors",
+        "3 Linear Regression > 3.6 Lab: Linear Regression > 3.6.2 Simple Linear Regression"
+      ]
+    },
+    {
+      "goal": "the bias-variance tradeoff",
+      "expected": [
+        "2 Statistical Learning > 2.2 Assessing Model Accuracy > 2.2.2 The Bias-Variance Trade-Off"
+      ],
+      "found": [
+        "2 Statistical Learning > 2.2 Assessing Model Accuracy > 2.2.2 The Bias-Variance Trade-Off"
+      ],
+      "missed": [],
+      "recall": 1.0,
+      "precision": 0.231,
+      "n_slots": 26,
+      "total_minutes": 338.0,
+      "avg_slot_minutes": 13.0,
+      "granularity_in_band": 0.808,
+      "type_hint_coverage": 1.0,
+      "dependency_integrity": 1.0,
+      "has_starting_points": true,
+      "off_topic_chapters_sample": [
+        "3 Linear Regression",
+        "3 Linear Regression > 3.3 Other Considerations in the Regression Model > 3.3.2 Extensions of the Linear Model",
+        "3 Linear Regression > 3.3 Other Considerations in the Regression Model > 3.3.3 Potential Problems",
+        "3 Linear Regression > 3.5 Comparison of Linear Regression with K-Nearest Neighbors",
+        "5 Resampling Methods > 5.1 Cross-Validation"
+      ]
+    },
+    {
+      "goal": "survival analysis",
+      "expected": [
+        "11 Survival Analysis and Censored Data > 11.1 Survival and Censoring Times",
+        "11 Survival Analysis and Censored Data > 11.5 Regression Models With a Survival Response"
+      ],
+      "found": [
+        "11 Survival Analysis and Censored Data > 11.5 Regression Models With a Survival Response"
+      ],
+      "missed": [
+        "11 Survival Analysis and Censored Data > 11.1 Survival and Censoring Times"
+      ],
+      "recall": 0.5,
+      "precision": 0.625,
+      "n_slots": 24,
+      "total_minutes": 332.5,
+      "avg_slot_minutes": 13.9,
+      "granularity_in_band": 1.0,
+      "type_hint_coverage": 1.0,
+      "dependency_integrity": 1.0,
+      "has_starting_points": true,
+      "off_topic_chapters_sample": [
+        "3 Linear Regression",
+        "3 Linear Regression > 3.2 Multiple Linear Regression",
+        "3 Linear Regression > 3.2 Multiple Linear Regression > 3.2.1 Estimating the Regression Coefficients",
+        "3 Linear Regression > 3.2 Multiple Linear Regression > 3.2.2 Some Important Questions",
+        "3 Linear Regression > 3.3 Other Considerations in the Regression Model > 3.3.3 Potential Problems"
+      ]
+    },
+    {
+      "goal": "multiple testing and the false discovery rate",
+      "expected": [
+        "13 Multiple Testing > 13.3 The Family-Wise Error Rate",
+        "13 Multiple Testing > 13.4 The False Discovery Rate"
+      ],
+      "found": [
+        "13 Multiple Testing > 13.3 The Family-Wise Error Rate",
+        "13 Multiple Testing > 13.4 The False Discovery Rate"
+      ],
+      "missed": [],
+      "recall": 1.0,
+      "precision": 1.0,
+      "n_slots": 19,
+      "total_minutes": 206.0,
+      "avg_slot_minutes": 10.8,
+      "granularity_in_band": 0.842,
+      "type_hint_coverage": 1.0,
+      "dependency_integrity": 1.0,
+      "has_starting_points": true,
+      "off_topic_chapters_sample": []
+    },
+    {
+      "goal": "principal components regression and partial least squares",
+      "expected": [
+        "6 Linear Model Selection and Regularization > 6.3 Dimension Reduction Methods > 6.3.1 Principal Components Regression",
+        "6 Linear Model Selection and Regularization > 6.3 Dimension Reduction Methods > 6.3.2 Partial Least Squares"
+      ],
+      "found": [
+        "6 Linear Model Selection and Regularization > 6.3 Dimension Reduction Methods > 6.3.1 Principal Components Regression",
+        "6 Linear Model Selection and Regularization > 6.3 Dimension Reduction Methods > 6.3.2 Partial Least Squares"
+      ],
+      "missed": [],
+      "recall": 1.0,
+      "precision": 0.571,
+      "n_slots": 14,
+      "total_minutes": 155.6,
+      "avg_slot_minutes": 11.1,
+      "granularity_in_band": 0.929,
+      "type_hint_coverage": 1.0,
+      "dependency_integrity": 1.0,
+      "has_starting_points": true,
+      "off_topic_chapters_sample": [
+        "12 Unsupervised Learning > 12.2 Principal Components Analysis",
+        "12 Unsupervised Learning > 12.2 Principal Components Analysis > 12.2.2 Another Interpretation of Principal Components",
+        "12 Unsupervised Learning > 12.2 Principal Components Analysis > 12.2.4 More on PCA",
+        "3 Linear Regression",
+        "3 Linear Regression > 3.2 Multiple Linear Regression"
+      ]
+    },
+    {
+      "goal": "best subset and stepwise selection",
+      "expected": [
+        "6 Linear Model Selection and Regularization > 6.1 Subset Selection > 6.1.1 Best Subset Selection",
+        "6 Linear Model Selection and Regularization > 6.1 Subset Selection > 6.1.2 Stepwise Selection"
+      ],
+      "found": [
+        "6 Linear Model Selection and Regularization > 6.1 Subset Selection > 6.1.2 Stepwise Selection"
+      ],
+      "missed": [
+        "6 Linear Model Selection and Regularization > 6.1 Subset Selection > 6.1.1 Best Subset Selection"
+      ],
+      "recall": 0.5,
+      "precision": 0.16,
+      "n_slots": 25,
+      "total_minutes": 299.7,
+      "avg_slot_minutes": 12.0,
+      "granularity_in_band": 0.88,
+      "type_hint_coverage": 1.0,
+      "dependency_integrity": 1.0,
+      "has_starting_points": true,
+      "off_topic_chapters_sample": [
+        "2 Statistical Learning > 2.2 Assessing Model Accuracy",
+        "2 Statistical Learning > 2.2 Assessing Model Accuracy > 2.2.2 The Bias-Variance Trade-Off",
+        "2 Statistical Learning > 2.2 Assessing Model Accuracy > 2.2.3 The Classification Setting",
+        "3 Linear Regression",
+        "3 Linear Regression > 3.1 Simple Linear Regression"
+      ]
+    },
+    {
+      "goal": "neural networks for tabular data",
+      "expected": [
+        "10 Deep Learning > 10.1 Single Layer Neural Networks",
+        "10 Deep Learning > 10.2 Multilayer Neural Networks"
+      ],
+      "found": [
+        "10 Deep Learning > 10.2 Multilayer Neural Networks"
+      ],
+      "missed": [
+        "10 Deep Learning > 10.1 Single Layer Neural Networks"
+      ],
+      "recall": 0.5,
+      "precision": 0.615,
+      "n_slots": 13,
+      "total_minutes": 152.8,
+      "avg_slot_minutes": 11.8,
+      "granularity_in_band": 0.846,
+      "type_hint_coverage": 1.0,
+      "dependency_integrity": 1.0,
+      "has_starting_points": true,
+      "off_topic_chapters_sample": [
+        "3 Linear Regression",
+        "3 Linear Regression > 3.5 Comparison of Linear Regression with K-Nearest Neighbors",
+        "3 Linear Regression > 3.6 Lab: Linear Regression > 3.6.6 Non-linear Transformations of the Predictors"
+      ]
+    }
+  ]
+}

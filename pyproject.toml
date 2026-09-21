@@ -9,10 +9,12 @@ dependencies = ["scikit-learn>=1.3", "numpy"]
 llm = ["anthropic"]
 chroma = ["chromadb", "sentence-transformers"]
 ingest = ["pymupdf", "tiktoken"]
+mcp = ["mcp[cli]"]
 dev = ["pytest"]
 
 [project.scripts]
 planlearn = "planlearn.cli:main"
+planlearn-mcp = "planlearn.mcp_server:main"
 
 [tool.setuptools.packages.find]
 include = ["planlearn*"]

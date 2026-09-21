@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "planlearn": {
+      "command": "/Users/yunfanzhou/Downloads/planlearn/.venv/bin/python",
+      "args": ["-m", "planlearn.mcp_server"],
+      "env": {}
+    }
+  }
+}
