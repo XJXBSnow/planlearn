@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+runs/
+islp_db/
+.venv/
+*.egg-info/
+.DS_Store
+# textbook-derived chunks: keep out of public repos (the book is copyrighted)
+data/*.jsonl
